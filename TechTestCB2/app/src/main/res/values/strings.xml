@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TechTestCB+</string>
+    <string name="dlc_manager">DLC MANAGER</string>
+    <string name="dlc_jj_mm_aa">DLC jj/mm/aa</string>
+    <string name="add">add</string>
+    <string name="add_dlc">add dlc</string>
+    <string name="add_gtin" />
+    <string name="edit_gtin">edit_gtin</string>
+    <string name="string_edit_gtin" />
+    <string name="add_button">+</string>
+    <string name="string_add_button">+</string>
+    <string name="gtin">GTIN</string>
+    <string name="string_gtin" />
+    <string name="gtin_basique">GTIN basique</string>
+</resources>
