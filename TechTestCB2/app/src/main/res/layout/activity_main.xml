@@ -10,9 +10,9 @@
 
     <ListView
         android:id="@+id/product_List"
-        android:layout_width="367dp"
-        android:layout_height="462dp"
-        android:background="#D8D8D8"
+        android:layout_width="365dp"
+        android:layout_height="528dp"
+        android:background="#EFEEEE"
         android:cacheColorHint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,6 +30,7 @@
         android:ems="10"
         android:hint="@string/gtin"
         android:inputType="number"
+        android:textColorLink="#5321A8"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appli_Title" />
@@ -40,7 +41,7 @@
         android:layout_height="84dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:background="#DCDAD6"
+        android:background="#CFCFCF"
         android:fontFamily="@font/autour_one"
         android:gravity="center"
         android:text="@string/dlc_manager"
@@ -60,6 +61,7 @@
         android:hint="@string/dlc_jj_mm_aa"
         android:importantForAutofill="no"
         android:inputType="date"
+        android:textColorLink="#5321A8"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/addDLC_Button"
         app:layout_constraintTop_toBottomOf="@+id/appli_Title" />
